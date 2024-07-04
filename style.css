@@ -45,9 +45,26 @@ section li{
 .banner{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding-left: 20px;
     }
+.banner h1 {
+        text-align: left; /* Align the text to the left */
+    }
     
+.banner ul {
+        padding: 0; /* Remove default padding */
+        margin: 0 0 20px 0; /* Space below the list */
+    }
+    
+.banner ul li i {
+        margin-right: 10px; /* Space between icons and text */
+    }
+    .banner ul li  {
+        margin: 10px 0; /* Space between list items */
+        display: flex;
+        align-items: center;
+    }
 .button-container{
     display: flex;
     align-items: center;
@@ -67,4 +84,146 @@ section li{
 
 .btn-rouge {
     background-color: darkturquoise;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.second-section h4 {
+    color: mediumorchid;
+    font-size: 3rem;
+    margin-bottom: 10px; /* Reduce space below the title */
+}
+
+.second-section p {
+    text-align: right;
+    margin: 5px 0; /* Reduce space above and below paragraphs */
+}
+
+.second-section .btn {
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0; /* Add space above and below button */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer;
+    background-color: deeppink; /* Set background color */
+    align-self: flex-end; /* Align button to the right */
+}
+
+.second-section h5 {
+    text-align: right; /* Align the subtitle to the right */
+    margin: 20px 0 5px 0; /* Adjust space above and below the subtitle */
+}
+.third-section h2,p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.images img{
+    height: 270px;
+    width: 230px;
+    position: relative;
+}
+.image-with-icon {
+    position: relative;
+}
+
+.image-with-icon .blurred-image {
+    filter: blur(100%); /* Apply blur effect to the image */
+}
+
+.image-with-icon .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ensure text color is white for contrast */
+}
+
+.image-with-icon .overlay i {
+    font-size: 2rem; /* Size of the play icon */
+    color: black;
+    margin-bottom: 10px;
+}
+
+.image-with-icon .overlay p {
+    font-size: 1.2rem; /* Size of the "Play now" text */
+    color: white;
+}
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 210px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.fourth-section writing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.writing h3,p{
+    text-align: right;
+}
+.image-container {
+    position: relative;
+    width: 450px; 
+    height: 420px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: -100px;
+    left: -90px; 
+    height: 230px;
+    width: 220px;
+    border: 2px solid burlywood;
+    padding: 2px;
+    box-sizing: border-box;
+    background: white;
+}
+.overlay-image-two{
+    position: absolute;
+    bottom: -100px; 
+    right: -90px;
+    height: 230px;
+    width: 220px;
+    border: 2px solid burlywood;
+    padding: 2px;
+    box-sizing: border-box; 
+    background: white;
+}
+.writing h2{
+    text-align: left;
+}
+.paragraph{
+    text-align: left;
 }
