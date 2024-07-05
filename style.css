@@ -1,19 +1,21 @@
-nav{
+/* Base CSS */
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 70px;
     background-color: whitesmoke;
-    
 }
-.nav1{
+
+.nav1 {
     display: flex;
     align-items: center;
     padding-left: 60px;
     gap: 10px;
 }
-.nav2{
+
+.nav2 {
     background-color: rgba(128, 128, 128, 0.718);
     height: 30px;
     width: 150px;
@@ -22,18 +24,22 @@ nav{
     justify-content: center;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-nav li{
-   list-style: none;
-}
-section li{
+
+nav li {
     list-style: none;
 }
-.first-section{
+
+section li {
+    list-style: none;
+}
+
+.first-section {
     height: 400px;
     padding-left: 100px;
     padding-top: 50px;
@@ -42,34 +48,39 @@ section li{
     justify-content: space-around;
     align-items: center;
 }
-.banner{
+
+.banner {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 20px;
-    }
+}
+
 .banner h1 {
-        text-align: left; /* Align the text to the left */
-    }
-    
+    text-align: left; /* Align the text to the left */
+}
+
 .banner ul {
-        padding: 0; /* Remove default padding */
-        margin: 0 0 20px 0; /* Space below the list */
-    }
-    
+    padding: 0; /* Remove default padding */
+    margin: 0 0 20px 0; /* Space below the list */
+}
+
 .banner ul li i {
-        margin-right: 10px; /* Space between icons and text */
-    }
-    .banner ul li  {
-        margin: 10px 0; /* Space between list items */
-        display: flex;
-        align-items: center;
-    }
-.button-container{
+    margin-right: 10px; /* Space between icons and text */
+}
+
+.banner ul li {
+    margin: 10px 0; /* Space between list items */
     display: flex;
     align-items: center;
 }
-.btn{
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
     border: none;
     border-radius: 6px;
     color: white;
@@ -78,6 +89,7 @@ section li{
     font-size: 10px; /* Adjust font size */
     cursor: pointer; 
 }
+
 .btn-signin {
     background-color: deeppink;
 }
@@ -85,12 +97,14 @@ section li{
 .btn-rouge {
     background-color: darkturquoise;
 }
-.second-section{
+
+.second-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.second-section{
+
+.second-section {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -124,26 +138,30 @@ section li{
     text-align: right; /* Align the subtitle to the right */
     margin: 20px 0 5px 0; /* Adjust space above and below the subtitle */
 }
-.third-section{
+
+.third-section {
     height: 400px;
 }
-.third-section h2,p{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+
+.third-section h2, p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.images{
+
+.images {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    
 }
-.images img{
+
+.images img {
     height: 270px;
     width: 230px;
     position: relative;
 }
+
 .image-with-icon {
     position: relative;
 }
@@ -171,7 +189,8 @@ section li{
     font-size: 1.2rem; /* Size of the "Play now" text */
     color: white;
 }
-.fourth-section{
+
+.fourth-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,15 +202,17 @@ section li{
     padding-bottom: 40px;
 }
 
-.fourth-section writing{
+.fourth-section writing {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
 }
-.writing h3,p{
+
+.writing h3, p {
     text-align: right;
 }
+
 .image-container {
     position: relative;
     width: 300px; 
@@ -214,7 +235,8 @@ section li{
     box-sizing: border-box;
     background: white;
 }
-.fifth-section{
+
+.fifth-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,7 +247,8 @@ section li{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.overlay-image-two{
+
+.overlay-image-two {
     position: absolute;
     bottom: -100px; 
     right: -90px;
@@ -236,13 +259,16 @@ section li{
     box-sizing: border-box; 
     background: white;
 }
-.writing h2{
+
+.writing h2 {
     text-align: left;
 }
-.paragraph{
+
+.paragraph {
     text-align: left;
 }
-.sixth-section{
+
+.sixth-section {
     height: 500px;
     background-color: #E1306C;
     color: azure;
@@ -251,47 +277,63 @@ section li{
     align-items: center;
     gap: 150px;
 }
-.sixth-section img{
+
+.sixth-section img {
     height: 500px;
     width: 450px;
 }
-.careers{
+
+.careers {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    
 }
-.career-ul{
+
+.career-ul {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
-.career-ul li{
+
+.career-ul li {
     list-style: none;
 }
-.seventh-section{
+
+.seventh-section {
     height: 200px;
     background-color: azure;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     padding-right: 40px;
     padding-left: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.Games{
+
+.Games {
     display: flex;
     flex-direction: row;
     gap: 15px;
     row-gap: 20px;
     align-items: center;
 }
-.Games img{
+
+.Games img {
     height: 60px;
     width: 60px;
 }
-footer{
+
+.Games:nth-child(3) {
+    border: 2px solid pink;
+    padding: 20px; /* Optional: Add padding to make the border more visible */
+    border-radius: 25px;
+    height: 20px;
+    width: 150px;
+    color: palevioletred;
+}
+
+footer {
     height: 500px;
     width: 100%;
     background-color: black;
@@ -301,28 +343,32 @@ footer{
     align-items: center;
     color: azure;
 }
-footer ul{
+
+footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-footer li{
+
+footer li {
     list-style: none;
 }
-.f-1{
+
+.f-1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
+}
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
 }
- .social-icons{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 25px;
-}
+
 .social-icons a {
     display: flex;
     justify-content: center;
@@ -345,9 +391,130 @@ footer li{
 .icon.facebook { color: #1877F2; } /* Facebook blue */
 .icon.youtube { color: #FF0000; } /* YouTube red */
 .icon.linkedin { color: #0077B5; } /* LinkedIn blue */
-.icon.instagram { color: #E1306C; } /* Instagram gradient */
-.icon.apple { color: #A2AAAD; } /* Apple gray */
-.social-icons p{
-    font-size: x-small;
-    color: #A2AAAD;
+.icon.instagram { color: #E1306C; } /* Instagram gradient color */
+.icon.github { color: #333; } /* GitHub black */
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    /* Tablet and below */
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .first-section, .second-section, .third-section, .fourth-section, .fifth-section, .sixth-section, .seventh-section {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    .fourth-section, .fifth-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sixth-section {
+        flex-direction: column;
+    }
+
+    .image-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .background-image, .overlay-image, .overlay-image-two {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .banner ul {
+        gap: 5px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .second-section h4 {
+        font-size: 2rem;
+    }
+
+    .second-section .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .images {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .seventh-section {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile and below */
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .first-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner ul li {
+        margin: 5px 0;
+    }
+
+    .second-section {
+        align-items: center;
+        text-align: center;
+    }
+
+    .second-section p, .second-section h5 {
+        text-align: center;
+    }
+
+    .fourth-section, .fifth-section, .sixth-section, .seventh-section {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .seventh-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
 }
